@@ -7,16 +7,24 @@ Bu belge, Obsidian Not Alma Uygulamasının kısayollarını tanıtmak amacıyla
 
 
 
+
+
 #### Dil Seçimi
-Ayarlar > Hakkında bölümünden kısmî de olsa Obsidian Türkçe diline ayarlanabilir.
+Ayarlar > About bölümünden kısmî de olsa Obsidian Türkçe diline ayarlanabilir.
 
 <br>
 
 #### Komut Paneli ve Not açma
-CTRL/CMD + P paneli açar.
+CTRL/CMD + P paneli açar. Ya da sol konsoldaki ikon kullanılabilir.
 CTRL/CMD + O notları bulmaya yarar.
 CTRL/CMD + SHIFT + F Tüm dosyaları bulmaya yarar. (Sol üstteki Search alanı etkinleşir. Tekrar eski hâline dönmek için Klasör görünümü seçilmelidir.)
 CTRL/CMD + SHIFT + E'ye Hotkeys'ten kısayol atanabilir ve File Explorer kullanılabilir.
+
+<br>
+
+#### Düzenleme ve Önizleme Görünümleri
+CTRL/CMD + E ile geçiş yapılabilir.
+
 <br>
 
 #### Checkbox Ekleme
@@ -35,11 +43,6 @@ Ayarlar > Hotkey'den kısayol eklenebilir. CTRL + i gibi.
 İç bağlantı adları çok uzunsa dik çizgi `|` ile bağlantı adları kısaltılabilir.
 
 [[Bu Çok Uzun Bir Not Adı Örneğidir|Örnek Not]]
-
-<br>
-
-#### Düzenleme ve Önizleme Görünümleri
-CTRL/CMD + E ile geçiş yapılabilir.
 
 <br>
 
@@ -421,8 +424,11 @@ B[Yönetici] --> B3[Çalışan]
 [mermaid-js.github.io](https://mermaid-js.github.io/mermaid/#/) adresinden dokümantasyon kodlarına ulaşılabilir.
 
 <br>
+
 #### Metin Boyutlarını Değiştirme
 Sol CTRL/CMD tuşu basılı iken farenin orta tuşu ileri - geri yapılarak Word ve Excel'de olduğu gibi metin boyutu değiştirilebilir.
+
+Ayarlar > Appearance > Font Size'dan da font büyüklüğü değiştirilebilir.
 
 <br>
 
