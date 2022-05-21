@@ -62,8 +62,18 @@ Notun üzerine gelip sağ tıklanmalı, açılan listeden "Show in system explor
 #### Callout Ekleme
 Hotkey'den Insert callout'a kısayol atanmalıdır. CTRL + SHIFT + C'ye gibi. Ya da doğrudan CTRL/CMD + P ile eklenebilir.
 
-> [!Obsidian Notlarım] Not Başlığı
-> İçerik alanı
+> [!NOTE] Not
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada tortor et leo suscipit, at sodales dolor convallis. Maecenas lobortis, ex in mollis rhoncus, lacus tortor facilisis lectus, eget dignissim magna lorem sed magna.
+
+Callout'lar ayrıca bilgi verme amaçlı kullanılabilir. Bunun için NOTE yerine INFO kullanılmalıdır.
+
+> [!INFO] Bilgi
+> Quisque non nulla orci. Curabitur egestas nisi non mi volutpat pellentesque. Phasellus ac hendrerit ex. Proin volutpat vestibulum ipsum. Duis varius purus sed diam rutrum, at tincidunt risus pharetra.
+
+Soruların yanıtlanması amacıyla da kullanılabilir. Bunun içinde FAQ kullanılmalıdır. FAQ, Frequently Asked Question'dan yani Sıkça Sorulan Sorular'dan gelir.
+
+> [!FAQ] Obsidian'ın Geliştiricileri Kimlerdir?
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
 
 <br>
 
@@ -102,6 +112,7 @@ Numaralı liste için 1. 2. 3. yazılması yeterlidir.
 1. Liste A
 2. Liste B
 
+Not: Daha hızlı liste oluşturmaya eklentileri öğrenirken değineceğiz.
 <br>
 
 #### Alıntı Yapma
@@ -109,6 +120,9 @@ Numaralı liste için 1. 2. 3. yazılması yeterlidir.
 
 > "Bu bir not alıntısıdır. Başka kaynaktan alındığı varsayılmıştır." 
 
+Tab tuşu ile de farklı bir alıntı stili uygulanabilir. Çoğunlukla kodların kopyalanması amacıyla kullanılır. Fakat okuyucularınıza kopyalatmak istediğiniz metinler için de kullanabilirsiniz.
+
+	Bu bir alıntı örneğidir.
 <br>
 
 #### Not Sınırı Ekleme
@@ -116,7 +130,7 @@ Numaralı liste için 1. 2. 3. yazılması yeterlidir.
 
 ---
 
-#### PDF'e Aktarma
+#### PDF'eye Aktarma
 Not açıkken sağ üstteki menüden "Export to PDF" seçilir. Ya da CTRL + SHIFT + P'ye hotkey atanabilir.
 
 <br>
@@ -131,17 +145,22 @@ Sürükle - Bırak yöntemi ile de harici belge eklenebilir.
 #### Kalıcı Not Silme
 Not adının üzerine gelip sağ tıkla Delete yapabiliriz. Fakat bu geri dönüşüm kutusuna atacaktır. Ayarlar > Files & Links > Deleted Files'tan kalıcı silme seçeneğini seçebiliriz. Eğer notlar kritik öneme sahipse bu özelliğin seçilmemesi gerekir.
 
+Ben OneDrive kullandığım için Obsidian'dan kalıcı olarak sildiğim notları OneDrive'ın Geri Dönüşüm kutusundan kurtarabiliyorum. Bu yüzden bulut yazılımı kullanmıyorsanız bu özelliği etkinleştirmemelisiniz.
+
+Obsidian'da kalıcı silmeyi Obsidian'ın çöp kutusunda (.Trash gizli klasöründe) not bırakmak istemediğim için yapıyorum.
+
 <br>
 
 #### Başlıkları Küçültme
 Hotkeys'ten "Fold all headings and list" ve "Unfold all heading and list"e kısayol atanabilir. CTRL + Aşağı ve Yukarı Yön Tuşları ideal.
 
+Bunun yerine birazdan Outline (anahat görünümü) özelliğine değineceğiz.
 <br>
 
 #### Tag Pane
 Notları etiketlemek için diez (#) işaretini kullanıyoruz.
 
-Ayarlar > Core Plugins > Tage Pane'i etkinleştirinde sağ bölümde etiketlere ulaşabiliriz.
+Ayarlar > Core Plugins > Tage Pane'i etkinleştirdiğimizde sağ bölümde etiketlere ulaşabiliriz.
 
 Dilersek etiket alanını sürükle - bırak ile sol tarafa konumlandırabiliriz.
 
@@ -150,6 +169,8 @@ slash işareti ile etiketleme yaptığımızda alt etiketler belirleyebiliriz.
 #obsidian/alt_etiket_1
 #obsidian/alt_etiket_2
 
+Etiketler notlar arasında bağlantı kurma ve Graph View görünümü için kritik öneme sahiptir.
+
 <br>
 
 #### Şablonlar
@@ -157,17 +178,21 @@ Ayarlar > Core Plugins > Templates'i etkinleştirdiğimizde sol taraftaki kısay
 
 Ayarlar > Templates'den Template klasörü ve tarih formatı belirlenir. Tarih formatı DD.MM.YYYY olarak belirlenirse daha iyi olacaktır.
 
-Templates notlarının içine şablonlar oluşturulur ve oluşturulan şablonlar "Insert template" ikonu ile eklenir.
+Templates klasörünün içine şablonlar oluşturulur ve oluşturulan şablonlar "Insert template" ikonu ile eklenir.
+
+Şablonlar başka notların içinde de kullanılabilir.
 
 <br>
 
 #### Sunum Yapma
-Sunumlar için --- işaretlerini kullanıyoruz. (Sunum Örneği sayfası örneği) Sağ üst menüden "Start presentation"ı seçiyoruz ve sunuma başlıyoruz.
+Sunumlar için --- işaretlerini kullanıyoruz. (Sunum Örneği notunu örnek olarak kullanabiliriz.) Sağ üst menüden "Start presentation"ı seçiyoruz ve sunuma başlıyoruz.
 
 <br>
 
 #### Favori Notlar
 Ayarlar > Core plugins > Starred etkinleştirilirse sol üstte yıldız ikonu eklenir. Notların üzerine gelip Star denilirse notlar favorilere alınabilir. Favori notlar sol üst köşedeki Starred alanında görülebilir. Notların üzerine gelip sağ tıkla Unstar yapılabilir.
+
+Hotkeys'ten favorilemek için ALT + S, favori klasörüne görmek için CTRL + SHIFT + S tuşları atanabilir.
 
 <br>
 
@@ -190,7 +215,7 @@ Günlük not eklemek için sol menü ikonlarından "Open today's daily note"a t�
 <br>
 
 #### Emoji Ekleme
-Windows için WinKey + Nokta tuşları ile emoji eklenebilir.
+Windows için WinKey/Elma + Nokta tuşları ile emoji eklenebilir.
 
 😻
 
@@ -202,6 +227,8 @@ Emojiler özellikle klasör adlarında ve notlarda iyi bir görselleştirme arac
 <br>
 
 #### Temalar
+Geldik en çok seveceğiniz bölümlere...
+
 Ayarlar > Apperance > Themes yolundan topluluk temaları kullanılabilir ve Obsidian'ın arayüzü değiştirilebilir.
 
 Özellikle Things teması görülmeye değer.
@@ -233,6 +260,11 @@ Calendar ile ayrıca daha önce oluşturulan günlük notlara hızlı bir şekil
 
 <br>
 
+#### Not Sabitleme
+Birden fazla notu açarken asıl notun kapanmaması için sağ üst menüden Pin kullanılabilir.
+
+<br>
+
 #### Yan Yana Görünüm
 Sol menüden not adının üzerinde sağ tıklayıp açılan listeden "Open in new pane" seçilirse notlar yan yana görüntülenecektir. Bunun yerine not listesinden SOL CTRL/CMD basılı iken notlar açılırsa yan yana görünüme geçilecektir.
 
@@ -252,7 +284,7 @@ Obsidian'ı her açışımızda kaldığımız yerden devam eder. Eğer sadece s
 #### Hatırlatıcı Oluşturma
 Reminder eklentisi ile hatırlatıcı notları oluşturulabilir. Eklenti kurulduktan ve etkinleştirildikten sonra sağ panele Reminder sekmesi eklenecektir.
 
-Yeni bir notta hatırlatıcı eklemek için öncelikle checkbox kullanmalıyız. Ardından hatırlatıcı notunu yazmalı ve `(@` yazdıktan sonra açılan takvimden tarih ve gerekli ise zamanı seçmeliyiz.
+Yeni bir nota hatırlatıcı eklemek için öncelikle checkbox kullanmalıyız. Ardından hatırlatıcı notunu yazmalı ve `(@` yazdıktan sonra açılan takvimden tarih ve gerekli ise zamanı seçmeliyiz.
 
 Eklenti ayarlarından tarih formatını YYYY-MM-DD yerine DD.MM.YYYY olarak değiştirebiliriz.
 
@@ -272,7 +304,7 @@ Hatırlatıcılar mobil sürüme Reminder eklentisi kurulduğu takdirde telefond
 <br>
 
 #### Akıl Haritası Oluşturma
-Topluluk eklentilerinden Mind Map eklentisi kurulabilir, listeler ya da başlıklar yardımıyla akıl haritası oluşturulabilir. (Akıl Haritası Notu)
+Topluluk eklentilerinden Mind Map eklentisi kurulabilir, listeler ya da başlıklar yardımıyla akıl haritası oluşturulabilir. (Akıl Haritası notunu inceleyebiliriz.)
 
 Hotkeys'ten kısayolu CTRL + SHIFT + M atanabilir.
 
@@ -283,7 +315,7 @@ Ekran görüntüsü alınabilir ve diğer notlarda kullanılabilir.
 #### Gelişmiş Kısayol Eklentisi
 Hotkeys++ eklentisi ile liste ya da yapılacak listesi hızlı bir şekilde oluşturulabilir.
 
-CTRL + M ile toplu checkbox, SHIFT + M ile toplu liste oluşturulabilir.
+CTRL + M ile toplu checkbox, SHIFT + M ile toplu liste oluşturulabilir. (Hotkeys++ notunu inceleyebiliriz.)
 
 Varsayılan olarak CTRL + SHIFT + M akıl haritasının kısayoludur. Bu yüzden kısayolu SHIFT + M ile değiştirebilirsiniz.
 
@@ -303,15 +335,12 @@ Efsane şarkıyı dinlemek için tıklayınız.
 
 <br>
 
-#### Not Sabitleme
-Birden fazla notu açarken asıl notun kapanmaması için sağ üst menüden Pin kullanılabilir.
-
-<br>
-
 #### Sayfa Önizleme
 Ayarlar > Core plugins > Page Preview etkinleştirilebilir. Bu sayede iç bağlantıların üzerine gelindiğinde CTRL/CMD tuşuna basılı tutulabilir ve ilgili notun önizlemesi yapılabilir.
 
 [[Yapılacaklar]]
+
+Okuma modunda CTRL tuşuna basmamıza bile gerek yoktur.
 
 <br>
 
@@ -327,7 +356,7 @@ Sesli notlar, not metninin içinden silinse bile Eklentiler klasöründe yer alm
 <br>
 
 #### Web Sitesi Notları Ekleme
-[MarkDownload - Markdown Web Clipper](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi)) Chrome/Edge eklentisi ile web sayfaları md formatında masaüstüne indirilebilir ve Obsidian notlarına sürükle - bırak ile eklenebilir.
+[MarkDownload - Markdown Web Clipper](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) Chrome/Edge eklentisi ile web sayfaları md formatında masaüstüne indirilebilir ve Obsidian notlarına sürükle - bırak ile eklenebilir.
 
 Firefox eklentisi de bulunmaktadır.
 
@@ -336,7 +365,9 @@ Firefox eklentisi de bulunmaktadır.
 <br>
 
 #### Başlıklar Arası Bağlantı Verme 
-Not adı yazıldıktan sonra # simgesi ile notun içindeki başlık adı yazıldığında başlıklar arası bağlantı kurulabilir. Okuma görünümünde (CTRL + E ile yapıyoruz) "Not Adı > Başlık Adı" şeklinde gösterilecektir.
+Not adı yazıldıktan sonra # simgesi ile notun içindeki başlık adı yazıldığında başlıklar arası bağlantı kurulabilir.
+
+Okuma görünümünde (CTRL + E ile yapıyoruz) "Not Adı > Başlık Adı" şeklinde gösterilecektir.
 
 [[Obsidian Kısayolları#Sayfa Önizleme]]
 
@@ -363,12 +394,11 @@ elif a == b:
   print("a and b are equal")  
 else:  
   print("a is greater than b")
-
 ```
 
 Okuma görünümünde kodların rengi de değişecektir. Renklerin değişebilmesi için italik tırnak işaretlerinden sonra Python için py, JavaScript için js yazılmalıdır.
 
-Kod bloğunun sağ üst köşesindeki Copy ya da py simgesine tıklanırsa kodlar kolayca kopyalanabilir.
+Okuma görünümünde kod bloğunun sağ üst köşesindeki Copy ya da py simgesine tıklanırsa kodlar kolayca kopyalanabilir.
 
 Bir notta `satır içi kod` yazmak için sadece bir tane italik tırnak işareti kullanılmalıdır.
 
@@ -400,6 +430,8 @@ Quisque non nulla orci. Curabitur egestas nisi non mi volutpat pellentesque. Pha
 [^1]: Dipnot örneği 1
 [^2]: Dipnot örneği 2
 [^3]: Dipnot örneği 3
+
+Dipnotları paragrafların altına yazsak dahi okuma görünümünde en altta görüntülenecektir.
 
 <br>
 
@@ -435,10 +467,13 @@ Görselleri yeniden boyutlandırmak için `![[gorseladi.jpg|160]]` kodu kullanı
 
 Tam boyutlandırma için `![[gorseladi.jpg|160x160]]` genişlik ve yükseklik değerleri belirlenmelidir.
 
+![[bisiklet.png | 480]]
+png görsellerinin arkaplanı transparan olabildiği için notlarda çok güzel görüntülencektir. Yukarıdaki görsel şu an kullandığım bisikletim bu arada. =)
+
 <br>
 
 #### Uzun Notlarda Gezinme
-Bu not gibi çok uzun notlarda CTRL/CMD + Home ve CTRL/CMD + End ile notun en üstüne ve en altına gidilebilir. 
+Bu not gibi çok uzun notlarda CTRL/CMD + Home ve CTRL/CMD + End ile notun en üstüne ve en altına gidilebilir. Page Up ve Page Down tuşları kullanılabilir.
 
 <br>
 
