@@ -5,10 +5,6 @@ Bu belge, Obsidian Not Alma Uygulamasının kısayollarını tanıtmak amacıyla
 [obsidian.md](https://obsidian.md/)
 <br><br><br>
 
-
-
-
-
 #### Dil Seçimi
 Ayarlar > About bölümünden kısmî de olsa Obsidian Türkçe diline ayarlanabilir.
 
@@ -16,7 +12,7 @@ Ayarlar > About bölümünden kısmî de olsa Obsidian Türkçe diline ayarlanab
 
 #### Komut Paneli ve Not açma
 CTRL/CMD + P paneli açar. Ya da sol konsoldaki ikon kullanılabilir.
-CTRL/CMD + O notları bulmaya yarar.
+CTRL/CMD + O notları bulmaya yarar. Sol taraftaki Quick Switcher da kullanılabilir.
 CTRL/CMD + SHIFT + F Tüm dosyaları bulmaya yarar. (Sol üstteki Search alanı etkinleşir. Tekrar eski hâline dönmek için Klasör görünümü seçilmelidir.)
 CTRL/CMD + SHIFT + E'ye Hotkeys'ten kısayol atanabilir ve File Explorer kullanılabilir.
 
@@ -51,6 +47,11 @@ Dış Bağlantı kelimeleri seçildikten sonra CTRL/CMD + K yapılmalıdır.
 
 [Dış Bağlantı](http://#)
 
+Dış Bağlantı Denemesi İçin Örnek
+https://zinzinzibidi.com/excel_dersleri/
+
+Not: Eklentiler bölümünde çok daha hızlı dış bağlantı eklemeyi öğreneceğiz.
+
 <br>
 
 #### Notların Dosya Konumu
@@ -63,16 +64,6 @@ Hotkey'den Insert callout'a kısayol atanmalıdır. CTRL + SHIFT + C'ye gibi. Ya
 
 > [!Obsidian Notlarım] Not Başlığı
 > İçerik alanı
-
-<br>
-
-#### Yan Yana Görünüm
-Sol menüden not adının üzerinde sağ tıklayıp açılan listeden "Open in new pane" seçilirse notlar yan yana görüntülenecektir. Bunun yerine not listesinden SOL CTRL basılı iken notlar açılırsa yan yana görünüme geçilecektir.
-
-<br>
-
-#### Not Sabitleme
-Birden fazla notu açarken asıl notun kapanmaması için sağ üst menüden Pin kullanılabilir.
 
 <br>
 
@@ -149,7 +140,10 @@ Hotkeys'ten "Fold all headings and list" ve "Unfold all heading and list"e kısa
 
 #### Tag Pane
 Notları etiketlemek için diez (#) işaretini kullanıyoruz.
+
 Ayarlar > Core Plugins > Tage Pane'i etkinleştirinde sağ bölümde etiketlere ulaşabiliriz.
+
+Dilersek etiket alanını sürükle - bırak ile sol tarafa konumlandırabiliriz.
 
 slash işareti ile etiketleme yaptığımızda alt etiketler belirleyebiliriz.
 
@@ -235,6 +229,83 @@ Tablolarda dikey çizgi (|) işareti kullanılmaktadır. İlk satır oluşturuld
 #### Calendar Eklentisi
 Calendar yani takvim eklentisi topluluk eklentilerinden eklenebilir. Sağ alanda görüntülencektir. İlgilli tarihe tıklanınca günlük not oluşturulabilir. İleriye dönük notlar için idealdir.
 
+Calendar ile ayrıca daha önce oluşturulan günlük notlara hızlı bir şekilde ulaşılabilir.
+
+<br>
+
+#### Yan Yana Görünüm
+Sol menüden not adının üzerinde sağ tıklayıp açılan listeden "Open in new pane" seçilirse notlar yan yana görüntülenecektir. Bunun yerine not listesinden SOL CTRL/CMD basılı iken notlar açılırsa yan yana görünüme geçilecektir.
+
+Sliding Panes eklentisi ile çok daha güzel sekme görünümü oluşturulabilir.
+
+Eklenti ayarlarından Leaf Auto Width etkinleştirilirse daha geniş bir çalışma alanı oluşacaktır.
+
+SOL SHIFT tuşu basılı iken farenin orta tuşu ile kaydırma etkinleştirilebilir.
+
+<br>
+
+#### Açılış Sayfasını Değiştirme
+Obsidian'ı her açışımızda kaldığımız yerden devam eder. Eğer sadece seçtiğimiz notun açılmasını ya da hiçbir notun açılmamasını istiyorsak Homepage adlı eklentiyi kullanabiliriz.
+
+<br>
+
+#### Hatırlatıcı Oluşturma
+Reminder eklentisi ile hatırlatıcı notları oluşturulabilir. Eklenti kurulduktan ve etkinleştirildikten sonra sağ panele Reminder sekmesi eklenecektir.
+
+Yeni bir notta hatırlatıcı eklemek için öncelikle checkbox kullanmalıyız. Ardından hatırlatıcı notunu yazmalı ve `(@` yazdıktan sonra açılan takvimden tarih ve gerekli ise zamanı seçmeliyiz.
+
+Eklenti ayarlarından tarih formatını YYYY-MM-DD yerine DD.MM.YYYY olarak değiştirebiliriz.
+
+Örnek format:
+
+```
+- [ ] Fatura borcunu ödemeyi unutma. (@26.05.2022)
+- [ ] Alper'in doğumgünü için öğlen arası hediye al. (@28.05.2022 12:00)
+```
+
+Hatırlatıcılar Obsidian'ı her açtığımızda karşımıza çıkacaktır.
+
+Use system notifications seçimini etkinleştirirsek işletim sisteminin bildirim alanında hatırlatıcılarımız görüntülenebilecektir. Fakat bu özelliğin etkili bir şekilde kullanılabilmesi için Obsidian'ın görev çubuğunda minimize olması gerekmektedir.
+
+Hatırlatıcılar mobil sürüme Reminder eklentisi kurulduğu takdirde telefonda da çalışacaktır.
+
+<br>
+
+#### Akıl Haritası Oluşturma
+Topluluk eklentilerinden Mind Map eklentisi kurulabilir, listeler ya da başlıklar yardımıyla akıl haritası oluşturulabilir. (Akıl Haritası Notu)
+
+Hotkeys'ten kısayolu CTRL + SHIFT + M atanabilir.
+
+Ekran görüntüsü alınabilir ve diğer notlarda kullanılabilir.
+
+<br>
+
+#### Gelişmiş Kısayol Eklentisi
+Hotkeys++ eklentisi ile liste ya da yapılacak listesi hızlı bir şekilde oluşturulabilir.
+
+CTRL + M ile toplu checkbox, SHIFT + M ile toplu liste oluşturulabilir.
+
+Varsayılan olarak CTRL + SHIFT + M akıl haritasının kısayoludur. Bu yüzden kısayolu SHIFT + M ile değiştirebilirsiniz.
+
+Art arda basılırsa toggle moduna geçecektir.
+
+<br>
+#### Hızlı Dış Bağlantı Ekleme
+Paste URL into selection eklentisi ile hızlı URL (dış bağlantı) eklenebilir.
+
+Eklenti kurulduktan sonra ekleme yapılacak metin seçilmeli ve kopyalanan URL CTRL/CMD + V ile metnin üzerine yapıştırılmalıdır.
+
+Uygulama:
+
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+Efsane şarkıyı dinlemek için tıklayınız.
+
+<br>
+
+#### Not Sabitleme
+Birden fazla notu açarken asıl notun kapanmaması için sağ üst menüden Pin kullanılabilir.
+
 <br>
 
 #### Sayfa Önizleme
@@ -249,7 +320,7 @@ Yazmak kimi zaman zor geliyorsa Ayarlar > Core plugins > Audio recorder etkinle�
 
 Sesli not için sol menüdeki mikrofon simgesine tıklanmalıdır.
 
-![[Recording 20220519182136.webm]]
+![[Recording 20220521142330.webm]]
 
 Sesli notlar, not metninin içinden silinse bile Eklentiler klasöründe yer almaktadır. Tamamen silmek için ses dosyası da silinmelidir.
 
@@ -407,6 +478,8 @@ https://youtu.be/mG04arbQn8M
 #### Graph View Renkleri
 Ayarlar > Groups'tan etiketlere renk verilebilir. Forces alanından sıkılıkları değiştirilebilir.
 
+Dilersek Graph View'i sağ ya da sol tarafa da konumlandırabiliriz.
+
 <br>
 
 #### SmartArt Grafiği Ekleme
@@ -429,6 +502,26 @@ B[Yönetici] --> B3[Çalışan]
 Sol CTRL/CMD tuşu basılı iken farenin orta tuşu ileri - geri yapılarak Word ve Excel'de olduğu gibi metin boyutu değiştirilebilir.
 
 Ayarlar > Appearance > Font Size'dan da font büyüklüğü değiştirilebilir.
+
+<br>
+
+#### Matematik ve İstatistik Formülleri
+
+Obsidian'da matematik, istatistik, fizik gibi alanlarda kullanılan formüller not olarak alınabilir. Formülleri göstermek için MathJax kodlarını 2 dolar işareti `$$` arasında yazmamız yeterlidir.
+
+[MathJax](https://www.mathjax.org/)
+$$ s = \sqrt{ { \Sigma (x_i - \bar x)^2 } \over n } $$
+
+Formülü paragraf içinde göstermek için sadece bir kez $ işareti kullanılmalıdır. Örneğin;
+
+Bir reel değişkenin reel-değerli fonksiyonu olan f(x)’in c değeri etrafında (n)inci momenti $\mu_n^{'} = \int_{-∞}^∞ (x-c)^n f(x) dx$ şeklinde ifade edilir.
+
+Tek başına göstermek isteseydik tek dolar işareti `$` yerine çift dolar işareti `$$` kullanmamız yeterlidir:
+
+$$\mu_n^{'} = \int_{-∞}^∞ (x-c)^n f(x) dx$$
+Obsidian'ın formüller konusunda hem satır içinde hem de ayrı gösterimde ne kadar esnek olduğu görülebilir.
+
+MathJax formüllerinin nasıl kullanılacağı üzerine [Stack Exchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) sayfası ziyaret edilebilir.
 
 <br>
 
