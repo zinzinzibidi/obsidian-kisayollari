@@ -1,6 +1,6 @@
 ## Obsidian Kısayolları
 
-Bu belge, Obsidian Not Alma Uygulamasının kısayollarını tanıtmak amacıyla hazırlanmıştır.
+Bu belge, Obsidian Not Alma Uygulamasının kısayollarını, eklentilerini ve özelliklerini tanıtmak amacıyla hazırlanmıştır.
 
 - [obsidian.md](https://obsidian.md/)
 - [YouTube Bölüm 1](https://youtu.be/AGEUEPqbN8M)
