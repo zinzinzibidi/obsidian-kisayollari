@@ -2,10 +2,10 @@
 
 Bu belge, Obsidian Not Alma Uygulamasının kısayollarını tanıtmak amacıyla hazırlanmıştır.
 
-[obsidian.md](https://obsidian.md/)
+- [obsidian.md](https://obsidian.md/)
+- [YouTube Bölüm 1](https://www.youtube.com/watch?v=AGEUEPqbN8M)
 <br><br><br>
 
-[YouTube Bölüm 1](https://www.youtube.com/watch?v=AGEUEPqbN8M)
 
 ### Bölüm 1
 
