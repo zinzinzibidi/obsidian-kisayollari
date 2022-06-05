@@ -5,6 +5,10 @@ Bu belge, Obsidian Not Alma Uygulamasının kısayollarını tanıtmak amacıyla
 [obsidian.md](https://obsidian.md/)
 <br><br><br>
 
+[YouTube Bölüm 1](https://www.youtube.com/watch?v=AGEUEPqbN8M)
+
+### Bölüm 1
+
 #### Dil Seçimi
 Ayarlar > About bölümünden kısmî de olsa Obsidian Türkçe diline ayarlanabilir.
 
@@ -557,6 +561,187 @@ $$\mu_n^{'} = \int_{-∞}^∞ (x-c)^n f(x) dx$$
 Obsidian'ın formüller konusunda hem satır içinde hem de ayrı gösterimde ne kadar esnek olduğu görülebilir.
 
 MathJax formüllerinin nasıl kullanılacağı üzerine [Stack Exchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) sayfası ziyaret edilebilir.
+
+<br>
+
+### Bölüm 2
+
+#### Deep Work Teması
+GitHub Temasına en yakın Deep Work teması kullanılabilir.
+
+Ayarlar > Appearance > Themes'in yanındaki klasör ikonuna tıklanabilir ve bilgisayardaki Themes klasörü açılır. Temaların CSS özellikleri değiştirilebilir.
+
+Geliştiricilerle iletişime geçilebilir.
+
+[GitHub Geri Bildirimi](https://github.com/nikbrunner/obsidian-deep-work-theme/discussions/76)
+
+<br>
+
+#### Font Seçimi ve CSS Snippets Kullanımı
+Ayarlar > Appearance > Font ile istenilen font kullanılabilir.
+
+Bilgisayarda bulunan fontları eklemek için
+
+Ayarlar > Appearance > CSS Snippets klasörü açılır. Boş bir not defteri oluşturulur. Adı ve uzantısı silinir. obsidian.css adlı yeni bir CSS dosyası oluşturulur. Not defteri ile dosya açılır ve içine
+
+```css
+* {
+  /* Tüm arayüzün fontunu değiştir. */
+  font-family: "Century Gothic", Avignon-PS, Verdana !important;
+}
+
+.cm-s-obsidian,
+.markdown-preview-view {
+  /* Sadece içeriğin fontunu değiştirir. */
+  font-family: "Century Gothic", Avignon-PS, Verdana !important;
+}
+
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  /* Sadece başlıkların fontunu değiştirir. */
+  font-family: "Century Gothic", Avignon-PS, Verdana !important;
+}
+```
+
+kodları yazılır.
+
+Eklenmek istenen font `C:\Windows\Fonts` adresinde yoksa harici bağlantılardan indirilir ve kurulur.
+
+[Century Gothic Font İndir](https://freefontsdownload.net/free-century-gothic-font-32089.htm)
+
+Font adları  `C:\Windows\Fonts` adresindeki dosyalar açıldığında sol üstte yazmaktadır. (Avignon-PS örneği)
+
+*İtalik cümle örneği*
+**Kalın cümle örneği**
+<br>
+
+#### Çok Fazla Dipnot Kullanımı
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id nisi quis nisi blandit faucibus. Nulla mattis feugiat euismod. Nunc sit amet tempor tortor. Integer laoreet felis neque, ac euismod purus rhoncus et. Etiam sed lacus aliquam, congue sapien eget, tincidunt enim. Phasellus vel ex eget lorem mattis ornare id vel diam.^[Birinci dipnot açıklaması] Nunc nec tellus eu dui accumsan facilisis. Cras lacinia lacus sollicitudin turpis convallis, nec consequat eros feugiat.^[İkinci dipnot açıklaması] In malesuada fermentum tellus ac condimentum. Praesent sit amet nisl at mauris tempor ullamcorper finibus id metus. Sed placerat in arcu at sollicitudin.^[Üçüncü dipnot açıklaması]
+
+<br>
+
+#### Yeni Notlar
+Yeni notları belirli bir klasöre kaydetmek için Ayarlar > Files & Links > Default location for new notes > In the folder specified below > "Yeni Notlar" klasörü yolu izlenir.
+
+<br>
+
+#### Obsidian Clipper Tarayıcı Eklentisi
+[Chrome/Edge](https://chrome.google.com/webstore/detail/obsidian-clipper/mphkdfmipddgfobjhphabphmpdckgfhb)
+(Microsoft Edge Chromium tabanlıdır.)
+(Firefox'ta sorunlu. Eski bir Firefox kullanıcısı olarak Edge'i tavsiye ederim.)
+
+Vault Name
+```
+{Obsidian Vault Adı ile Birebir Aynı Olmalıdır}
+```
+
+Note to clip to
+```
+{Klasör Adı}/{year}.{month}.{day} {title}
+```
+<small>Videoda "Web Sitesi Notları" klasörünü kullandım.</small>
+
+Clipping format
+```
+{clip}^[[{title}]({url})({date})]
+```
+
+Datetime format
+```
+DD.MM.YYYY HH:mm:ss
+```
+
+Date format
+```
+DD.MM.YYYY
+```
+
+**Save** yapmayı unutmayın.
+
+[Örnek Site](https://zinzinzibidi.com/blog/kitap/savas_ve_baris)
+
+Not alma başarısız olursa Obsidian Clipper eklenti ayarlarının en altındaki **Test Configuration** düğmesi kullanılmalıdır.
+
+Resimler sürükle - bırak ile notların içine eklenebilir.
+
+<br>
+
+#### Telefonlar için Advanced Mobile Toolbar Eklentisi
+[Advance Mobile Toolbar](https://github.com/phibr0/obsidian-advanced-toolbar)
+
+<img src="https://zinzinzibidi.com/img/obsidian-advanced-mobile-1.jpg" width="260" />
+
+Satır sayısı değiştirilebilir.
+
+<img src="https://zinzinzibidi.com/img/obsidian-advanced-mobile-2.jpg" width="260" />
+
+Toolbar Row Count ile satır sayısı 2 yapılabilir.
+
+Not: Mobil eklentiler sadece mobilde, bilgisayar eklentileri sadece bilgisayarda çalışır. Bunun dışında tema, font tipi gibi diğer tüm görsel ayarlar hem mobilde hem de bilgisayarda çalışır.
+
+<br>
+
+#### Map View Eklentisi
+Map View İstanbul, Ankara ve Denizli Notu
+
+CTRL + P ile palet açıldıktan sonra Map yazılması ve "Add geolocation (front matter) ..." komutunun seçilmesi
+
+"Ataşehir'de Yaşadıklarım" adlı yeni bir not oluşturulup  ve "Ataşehir Barbaros Mahallesi"ni haritadan seçilebilir.
+
+<br>
+
+#### Recent Files Eklentisi
+Sol üstte Recent Files alanı ekler ve son açılan notlar listelenir. CTRL + SHIFT + R'ye klavye kısayolu atanabilir.
+
+Bu şekilde CTRL + SHIFT + E, F, S ve R kısayolları birlikte kullanılabilir.
+
+<br>
+
+#### Advanced Tables Sağ Panel Kısayolları
+Sağ panelden Advanced Tables kısayolları kullanılabilir.
+
+| Ad     | Soyad  | Şehir    |
+| ------ | ------ | -------- |
+| Mehmet | ŞİMŞEK | Ankara   |
+| Erdal  | YILMAZ | Ankara   |
+| Ahmet  | BAL    | İstanbul |
+| Ayşe   | YÜKSEL | İzmir    |
+
+<br>
+
+#### Tasks Eklentisi
+Community Plugin'de Tasks eklentisi ve SHIFT + ENTER kısayolu ile kullanımı
+
+Due (Bitiş Zamanına) Today yazınca bugünü açması
+
+Reminder eklentisi ile kullanılınca daha etkilidir.
+
+<br>
+
+#### Memos Eklentisi
+Obsidian Memos eklentisi ile kısa notlar alınabilir. Calendar ve Obsidian Big Calendar eklentileri ile senkronize çalışır. Big Calendar eklentisine birazdan değinilecektir. Kaydedilen notlar Günlük Notlar (Daily Notes) klasöründe listelenir.
+
+<br>
+
+#### Big Calendar Eklentisi
+Obsidian Big Calendar eklentisi ile büyük takvim kullanılabilir. Memos ve Calendar eklentileri ile senkronize çalışır. Memos'ta olduğu gibi tüm notlar Günlük Notlar (Daily Notes) klasöründe listenir.
+
+<br>
+
+#### Şifrelenmiş Not Oluşturma
+Meld Encrypt eklentisi ile şifrelenmiş notlar oluşturulabilir. Oluşturmak ve kaldırmak için Palet'te "meld" yazılması ve "Whole Note" seçilmesi yeterlidir.
+
+Şifreleme Obsidian'ı açıp kapattıktan sonra işe yaramaktadır.
 
 <br>
 
