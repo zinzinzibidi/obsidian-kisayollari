@@ -7,7 +7,6 @@ Bu belge, Obsidian Not Alma Uygulamasının kısayollarını, eklentilerini ve �
 - [YouTube Bölüm 2](https://youtu.be/WC4Gxj76uLs)
 <br><br><br>
 
-
 ### Bölüm 1
 
 #### Dil Seçimi
@@ -80,6 +79,36 @@ Soruların yanıtlanması amacıyla da kullanılabilir. Bunun içinde FAQ kullan
 > [!FAQ] Obsidian'ın Geliştiricileri Kimlerdir?
 > Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
 
+##### Diğer Callout'lar
+Kodu görmek için üzerlerine çift tıklayınız.
+
+> [!tldr] Özet
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!tip] İpucu
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!done] Tamamlanan
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!warning] Uyarı
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!fail] Başarısız
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!error] Hata
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!bug] Bug
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!example] Örnek
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
+> [!cite] Alıntı
+> Maecenas cursus bibendum odio. Sed a nunc at dui sollicitudin tincidunt. Proin faucibus vehicula mi, ac sollicitudin urna pulvinar a. Curabitur sit amet pulvinar tortor, vitae imperdiet ante. Maecenas egestas erat ac commodo hendrerit. Mauris suscipit nisi risus, ut pretium nunc mollis eget.
+
 <br>
 
 #### Kalın ve İtalik Yazma
@@ -118,6 +147,7 @@ Numaralı liste için 1. 2. 3. yazılması yeterlidir.
 2. Liste B
 
 Not: Daha hızlı liste oluşturmaya eklentileri öğrenirken değineceğiz.
+
 <br>
 
 #### Alıntı Yapma
@@ -135,7 +165,7 @@ Tab tuşu ile de farklı bir alıntı stili uygulanabilir. Çoğunlukla kodları
 
 ---
 
-#### PDF'eye Aktarma
+#### PDF'ye Aktarma
 Not açıkken sağ üstteki menüden "Export to PDF" seçilir. Ya da CTRL + SHIFT + P'ye hotkey atanabilir.
 
 <br>
@@ -160,6 +190,7 @@ Obsidian'da kalıcı silmeyi Obsidian'ın çöp kutusunda (.Trash gizli klasör�
 Hotkeys'ten "Fold all headings and list" ve "Unfold all heading and list"e kısayol atanabilir. CTRL + Aşağı ve Yukarı Yön Tuşları ideal.
 
 Bunun yerine birazdan Outline (anahat görünümü) özelliğine değineceğiz.
+
 <br>
 
 #### Tag Pane
@@ -191,6 +222,7 @@ Templates klasörünün içine şablonlar oluşturulur ve oluşturulan şablonla
 
 #### Sunum Yapma
 Sunumlar için --- işaretlerini kullanıyoruz. (Sunum Örneği notunu örnek olarak kullanabiliriz.) Sağ üst menüden "Start presentation"ı seçiyoruz ve sunuma başlıyoruz.
+
 
 <br>
 
@@ -251,9 +283,9 @@ Advanced Tables topluluk eklentisi ile tablo oluşturulabilir. Eklendikten sonra
 Tablolarda dikey çizgi (|) işareti kullanılmaktadır. İlk satır oluşturulduktan sonra Advanced Tables ile diğer hücreler otomatik oluşturulacaktır.
 
 | Uzun Başlık Örneği 1 | Uzun Başlık Örneği 2 | Uzun Başlık Örneği 3 |
-| :--- | :---: | ---: |
-| İçerik 1 | İçerik 2 | İçerik 3 |
-| İçerik 4 | İçerik 5 | İçerik 6 |
+|:-------------------- |:-------------------- |:-------------------- |
+| İçerik 4             | İçerik 5             | İçerik 6             |
+| İçerik 1             | İçerik 2             | İçerik 3             |
 :--- sola, :---: ortaya, ---: sağa hizalar.
 
 <br>
@@ -296,9 +328,12 @@ Eklenti ayarlarından tarih formatını YYYY-MM-DD yerine DD.MM.YYYY olarak değ
 Örnek format:
 
 ```
-- [ ] Fatura borcunu ödemeyi unutma. (@26.05.2022)
-- [ ] Alper'in doğumgünü için öğlen arası hediye al. (@28.05.2022 12:00)
+- [x] Fatura borcunu ödemeyi unutma. (@26.05.2022)
+- [x] Alper'in doğumgünü için öğlen arası hediye al. (@28.05.2022 12:00)
 ```
+
+- [x] Fatura borcunu ödemeyi unutma (@22.05.2022 17:35)
+- [x] Fatura borcunu tekrar öde (@22.05.2022 17:36)
 
 Hatırlatıcılar Obsidian'ı her açtığımızda karşımıza çıkacaktır.
 
@@ -328,7 +363,7 @@ Art arda basılırsa toggle moduna geçecektir.
 
 <br>
 #### Hızlı Dış Bağlantı Ekleme
-Paste URL into selection eklentisi ile hızlı URL (dış bağlantı) eklenebilir.
+==Paste URL into selection== eklentisi ile hızlı URL (dış bağlantı) eklenebilir.
 
 Eklenti kurulduktan sonra ekleme yapılacak metin seçilmeli ve kopyalanan URL CTRL/CMD + V ile metnin üzerine yapıştırılmalıdır.
 
@@ -336,7 +371,9 @@ Uygulama:
 
 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
-Efsane şarkıyı dinlemek için tıklayınız.
+Efsane şarkıyı dinlemek için [tıklayınız](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+
+
 
 <br>
 
@@ -388,6 +425,8 @@ Ayarlar >  Editor > Default New Pane View'den bu ayar değiştirilebilir. Aynı 
 #### Kod Alıntıları
 Programlama dillerine ait kod alıntıları için ALT GR + VİRGÜL ile italik tırnak işareti kullanılmalıdır.
 
+```
+
 ```py
 print("Hello World")
 
@@ -415,7 +454,7 @@ Ayarlar > Core plugins > Outline etkinleştirilirse sağ panelin Outline bölüm
 <br>
 
 #### Çalışma Alanları
-Ayarlar > Core plugins > Workspaces etkinleştirilebilir ve çalışma alanları oluşturulabilir. Workspace ikonu sol panele gelecektir. Bu sayede ilgil çalışma alanı yüklendiğinde ilgili not ve o çalışma alanına ait arayüz açılacaktır. Sağ panel kapalıysa workspace açıldığında panel açık konuma gelebilecektir. Workspace nasıl kaydedilirse o şekilde gösterilecektir.
+Ayarlar > Core plugins > Workspaces etkinleştirilebilir ve çalışma alanları oluşturulabilir. Workspace ikonu sol panele gelecektir. Bu sayede ilgili çalışma alanı yüklendiğinde ilgili not ve o çalışma alanına ait arayüz açılacaktır. Sağ panel kapalıysa workspace açıldığında panel açık konuma gelebilecektir. Workspace nasıl kaydedilirse o şekilde gösterilecektir.
 
 <br>
 
@@ -426,7 +465,7 @@ Dipnotları okuyabilmek için düzenle görünümünde çıkılmalı ve CTRL + E
 
 Dipnot Örneği
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada tortor et leo suscipit, at sodales dolor convallis. Maecenas lobortis, ex in mollis rhoncus, lacus tortor facilisis lectus, eget dignissim magna lorem sed magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vehicula, tellus in finibus malesuada, nisl sapien dictum elit, vel fringilla augue risus vel diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque euismod nibh id nulla pharetra imperdiet. Proin lacus diam, finibus commodo aliquet ac, pharetra in enim. Cras eget risus eu eros dignissim ultricies. Nullam molestie, lacus eu consectetur semper, justo mauris pellentesque leo, vel sodales eros eros a urna.[^1]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada tortor et leo suscipit, at sodales dolor convallis. Maecenas lobortis, ex in mollis rhoncus, lacus tortor facilisis lectus, eget dignissim mzagna lorem sed magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vehicula, tellus in finibus malesuada, nisl sapien dictum elit, vel fringilla augue risus vel diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque euismod nibh id nulla pharetra imperdiet. Proin lacus diam, finibus commodo aliquet ac, pharetra in enim. Cras eget risus eu eros dignissim ultricies. Nullam molestie, lacus eu consectetur semper, justo mauris pellentesque leo, vel sodales eros eros a urna.[^1]
 
 Fusce blandit magna sed consequat hendrerit. Quisque egestas arcu id ipsum congue, sit amet condimentum orci maximus. Proin odio felis, aliquam vel faucibus et, luctus eget lacus. Nunc scelerisque pharetra tortor ullamcorper accumsan. Aenean ultricies placerat facilisis. Fusce eget ex sed velit sagittis condimentum. Phasellus tortor mauris, fermentum eget elit ac, finibus aliquet metus. Donec nunc urna, convallis at imperdiet sed, dictum ac ligula. Vestibulum a tincidunt justo, vitae tempor elit. Vivamus odio odio, faucibus tempus luctus cursus, luctus eget leo. Nullam dapibus ut lacus nec ornare. Donec vel libero eget elit egestas commodo. Nunc posuere porttitor purus ac tincidunt. Integer nec felis massa. Maecenas laoreet metus vitae enim tempor, a aliquam justo viverra. Maecenas euismod vehicula hendrerit.[^2]
 
@@ -445,14 +484,14 @@ Dipnotları paragrafların altına yazsak dahi okuma görünümünde en altta g�
 ```py
 print("Hello World")
 
-a = 200  
+z = 200  
 b = 33  
-if b > a:  
-  print("b is greater than a")  
-elif a == b:  
-  print("a and b are equal")  
+if b > z:  
+  print("b is greater than z")  
+elif z == b:  
+  print("z and b are equal")  
 else:  
-  print("a is greater than b")
+  print("z is greater than b")
 
 ```
 
@@ -468,7 +507,7 @@ Sol ALT tuşu basılı iken ilgili metinler seçilirse çoklu imleç kullanılab
 #### Görsel Boyutlandırma
 Görselleri yeniden boyutlandırmak için `![[gorseladi.jpg|160]]` kodu kullanılabilir. Sadece genişliğe göre boyutlandırma yapacaktır.
 
-![[cicek3.jpg|160]]
+![[cicek3 1.jpg|160]]
 
 Tam boyutlandırma için `![[gorseladi.jpg|160x160]]` genişlik ve yükseklik değerleri belirlenmelidir.
 
@@ -485,7 +524,7 @@ Bu not gibi çok uzun notlarda CTRL/CMD + Home ve CTRL/CMD + End ile notun en ü
 #### Belirli Bir Paragrafa Bağlantı Verme
 Notlar içindeki belirli bir paragrafa bağlantı vermek için `[[Not Adı#^paragraf]]` kodları kullanılmalıdır. `^paragraf` işaretlemesi daha önce oluşturulmuş olmalıdır.
 
-[[Obsidian Kısayolları#^ayarlar|Varsayılan Okuma Modu Ayarları]]
+[[Obsidian Kısayolları#^ayarlar|Deneme]]
 
 <br>
 
@@ -680,11 +719,11 @@ Resimler sürükle - bırak ile notların içine eklenebilir.
 #### Telefonlar için Advanced Mobile Toolbar Eklentisi
 [Advance Mobile Toolbar](https://github.com/phibr0/obsidian-advanced-toolbar)
 
-<img src="https://zinzinzibidi.com/img/obsidian-advanced-mobile-1.jpg" width="260" />
+![[obsidian-mobile-keyboard.jpg|center|260]]
 
 Satır sayısı değiştirilebilir.
 
-<img src="https://zinzinzibidi.com/img/obsidian-advanced-mobile-2.jpg" width="260" />
+![[obsidian-mobile-keyboard-2.jpg|center|260]]
 
 Toolbar Row Count ile satır sayısı 2 yapılabilir.
 
@@ -717,6 +756,8 @@ Sağ panelden Advanced Tables kısayolları kullanılabilir.
 | Erdal  | YILMAZ | Ankara   |
 | Ahmet  | BAL    | İstanbul |
 | Ayşe   | YÜKSEL | İzmir    |
+
+[[Mindset Kitabı İngilizce Kelimeler]]
 
 <br>
 
