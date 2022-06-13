@@ -693,7 +693,8 @@ Note to clip to
 
 Clipping format
 ```
-{clip}^[[{title}]({url})({date})]
+>[!cite] {title}
+>{clip}^[[{title}]({url})({date})]
 ```
 
 Datetime format
