@@ -252,7 +252,7 @@ Günlük not eklemek için sol menü ikonlarından "Open today's daily note"a t�
 <br>
 
 #### Emoji Ekleme
-Windows için WinKey/Elma + Nokta tuşları ile emoji eklenebilir.
+Windows için WinKey + Nokta, MacOS için CTRL + CMD + SPACE tuşları ile emoji eklenebilir.
 
 😻
 
